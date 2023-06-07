@@ -161,7 +161,7 @@ Check your deployed application at the External IP of your *publicfrontend* serv
 1. Use this command to see the STATUS of your pods:
 ```bash
 kubectl get pods
-kubectl describe pod <pod-id>
+kubectl describe pod backend-feed-5b794bb979-284zx<pod-id>
 # An example:
 # kubectl logs backend-user-5667798847-knvqz
 # Error from server (BadRequest): container "backend-user" in pod "backend-user-5667798847-knvqz" is waiting to start: trying and failing to pull image
